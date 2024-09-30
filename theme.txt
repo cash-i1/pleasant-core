@@ -1,3 +1,24 @@
 title-text: ""
 desktop-image: "background.png"
-terminal-font: "jetbrains_mono_bold.pf2"
+terminal-font: "JetBrains Mono Bold 16"
+terminal-box: "terminal_box_*.png"
+
++ boot_menu {
+    left = 50%-300    
+    top = 50%-100    
+    width = 600
+    height = 300 
+
+    selected_item_color = "#3333FF"
+    item_color = "#FFFFFF"
+    selected_item_pixmap_style = "button_*.png"
+
+    menu_pixmap_style = "terminal_box_*.png"
+
+    item_font = "JetBrains Mono Bold 16"
+    item_padding = 20
+
+    icon_width = 32
+    icon_height = 32
+    item_icon_space = 4
+}
