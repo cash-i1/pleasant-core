@@ -1,0 +1,3 @@
+title-text: ""
+desktop-image: "background.png"
+terminal-font: "jetbrains_mono_bold.pf2"
